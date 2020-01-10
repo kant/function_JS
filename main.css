@@ -1,0 +1,43 @@
+body {
+    background-color: black;
+    color: aliceblue;
+}
+
+h1 {
+    margin: 10px;
+    border: 1px solid white;
+    padding: 20px;
+}
+
+.mainFunction {
+    margin: 10px;
+    margin-top: 20px;
+    border: 1px solid white;
+    padding: 20px;
+}
+
+strong {
+    color: yellow;
+}
+
+.contenedor {
+    display: flex;
+    /*si no hay espacio crea otra fila*/
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 200px;
+    border: 1px solid blue;
+    padding: 20px;
+    align-items: center;
+    margin: 10px;
+    flex-direction: column;
+}
+
+.elemento {
+    border: 1px solid white;
+    margin: 10px;
+    width: 50px;
+    height: 50px;
+    /*Lo hace que no sean flexibles*/
+    flex-shrink: 0;
+}
