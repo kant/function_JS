@@ -1,2 +1,2 @@
 # function_JS
-Funcions with JS Basics
+Functions with JS Basics
